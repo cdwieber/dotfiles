@@ -37,7 +37,10 @@ use('nelstrom/vim-visual-star-search')
 use('jessarcher/vim-heritage')
 use('sickill/vim-pasta')
 use('AndrewRadev/splitjoin.vim')
-use('windwp/nvim-autopairs')
+use({
+	'windwp/nvim-autopairs',
+    config = function() require("nvim-autopairs").setup {} end
+})
 use({'voldikss/vim-floaterm',
     config = function()
       vim.keymap.set('n', '<Leader>t', ':FloatermNew<CR>')
