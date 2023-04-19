@@ -38,6 +38,7 @@ use('jessarcher/vim-heritage')
 use('sickill/vim-pasta')
 use('AndrewRadev/splitjoin.vim')
 use('windwp/nvim-autopairs')
+use('voldikss/vim-floaterm')
 
 -- Set Theme
 use({
@@ -64,6 +65,8 @@ use({
     require('user/plugins/lspconfig')
   end,
 })
+
+
 
 use({
     'whatyouhide/vim-textobj-xmlattr',
