@@ -38,7 +38,11 @@ use('jessarcher/vim-heritage')
 use('sickill/vim-pasta')
 use('AndrewRadev/splitjoin.vim')
 use('windwp/nvim-autopairs')
-use('voldikss/vim-floaterm')
+use({'voldikss/vim-floaterm',
+    config = function()
+      vim.keymap.set('n', '<Leader>t', ':FloatermNew<CR>')
+    end,
+  })
 
 -- Set Theme
 use({
@@ -51,7 +55,7 @@ use({
 
     vim.cmd[[colorscheme neon]]
 
-  end;
+  end,
 })
 
 -- Language Server Protocol.
