@@ -4,9 +4,3 @@ cursor_blink_interval 0
 adjust_line_height 110%
 window_border_width 0.5pt
 hide_window_decorations titlebar-only
-
-
-# BEGIN_KITTY_THEME
-# Afterglow
-include current-theme.conf
-# END_KITTY_THEME
