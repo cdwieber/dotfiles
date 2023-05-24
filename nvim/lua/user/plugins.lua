@@ -37,6 +37,7 @@ use('nelstrom/vim-visual-star-search')
 use('jessarcher/vim-heritage')
 use('sickill/vim-pasta')
 use('AndrewRadev/splitjoin.vim')
+use('github/copilot.vim')
 use({
 	'windwp/nvim-autopairs',
     config = function() require("nvim-autopairs").setup {} end
